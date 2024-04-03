@@ -4,6 +4,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { DeferableViewsComponent } from './deferable-views/deferable-views.component';
 import { UserComponent } from './user/user.component';
+import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { UserComponent } from './user/user.component';
     ChildComponentComponent,
     DeferableViewsComponent,
     UserComponent,
-    FormControlValueComponent
+    FormControlValueComponent,
+    ReactiveFormsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
