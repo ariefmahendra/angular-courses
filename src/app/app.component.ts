@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { DeferableViewsComponent } from './deferable-views/deferable-views.component';
 import { UserComponent } from './user/user.component';
@@ -9,6 +9,7 @@ import { UserComponent } from './user/user.component';
   standalone: true,
   imports: [
     RouterOutlet,
+    RouterLink,
     ChildComponentComponent,
     DeferableViewsComponent,
     UserComponent
