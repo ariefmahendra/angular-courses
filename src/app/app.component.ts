@@ -1,3 +1,4 @@
+import { ValidatingFormsComponent } from './validating-forms/validating-forms.component';
 import { FormControlValueComponent } from './form-control-value/form-control-value.component';
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
@@ -16,7 +17,8 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
     DeferableViewsComponent,
     UserComponent,
     FormControlValueComponent,
-    ReactiveFormsComponent
+    ReactiveFormsComponent,
+    ValidatingFormsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

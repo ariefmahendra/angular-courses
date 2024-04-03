@@ -1,0 +1,12 @@
+<h2>Form Profile</h2>
+<form [formGroup]="profileForms">
+    <label for="name">
+        Name: 
+        <input type="text" formControlName="name">
+    </label>
+    <label for="email">
+        Email: 
+        <input type="text" formControlName="email">
+    </label>
+    <button type="submit" [disabled]="!profileForms.valid">Submit</button>
+</form>
