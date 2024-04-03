@@ -1,3 +1,4 @@
+import { FormControlValueComponent } from './form-control-value/form-control-value.component';
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { ChildComponentComponent } from './child-component/child-component.component';
@@ -12,7 +13,8 @@ import { UserComponent } from './user/user.component';
     RouterLink,
     ChildComponentComponent,
     DeferableViewsComponent,
-    UserComponent
+    UserComponent,
+    FormControlValueComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
