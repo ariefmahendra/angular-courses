@@ -1,3 +1,4 @@
+import { ReversePipe } from './../reverse.pipe';
 import { CurrencyPipe, DatePipe, DecimalPipe } from '@angular/common';
 import { Component } from '@angular/core';
 
@@ -7,7 +8,8 @@ import { Component } from '@angular/core';
   imports: [
       DecimalPipe,
       DatePipe,
-      CurrencyPipe
+      CurrencyPipe,
+      ReversePipe
   ],
   templateUrl: './pipe.component.html',
   styleUrl: './pipe.component.css'
@@ -16,4 +18,5 @@ export class PipeComponent {
   num: number = 103.1234;
   birthday: Date = new Date( 2023, 3, 2);
   cost: number = 4560.34;
+  palindrome: string = "kodok kara";
 }
